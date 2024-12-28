@@ -1,0 +1,17 @@
+//INPUT
+import java.util.Stack;
+class javaCollections{
+    public static void main(String[] args){
+        Stack<String> Name=new Stack<>();
+        Name.push("Ankit");
+        Name.push("Ankush");
+        System.out.println(Name);
+        Name.pop();
+        System.out.println(Name);
+        
+    }
+}
+//STACKS IN COLLECTIONS ÍN JAVA AND OPERATIONS INCLUDING PUSH AND POP
+//OUTPUT
+[Ankit, Ankush]
+[Ankit]
